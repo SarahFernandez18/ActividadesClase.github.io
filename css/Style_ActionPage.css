@@ -1,0 +1,49 @@
+header {
+    background-color: #DAA7EC;
+    height: 100px;
+}
+h1{
+    color: #F2F2F2;
+    text-align: center;
+	font-size: 40px;
+	padding-top: 20px;
+}
+header , nav, section, main, footer{
+	margin: 0 auto;
+	width: 80%;
+}
+nav {
+    height: 40px;
+	background-color: #180020;
+	color: #F2F2F2;
+}
+footer {
+    background-color: #180020;
+  	color: #F2F2F2;
+	height: 100px;
+}
+main{
+	background-color: #FDBABB;
+	padding: auto;
+	height: auto;
+}
+
+.imagen_01 {
+	width: 50%;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+input[type=submit]{
+    background-color: #FE724C;
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+    margin: 10px 40%;
+    font-size: 18px;
+    font-weight: bold;
+    box-sizing: border-box;
+
+
+}
