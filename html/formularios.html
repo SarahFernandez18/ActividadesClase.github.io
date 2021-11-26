@@ -1,0 +1,153 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Documento sin título</title>
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<header>
+		<h1>Formularios en HTML</h1>
+	</header>
+<nav>
+		<ul>
+			<il><a href="mi_primera_pagina.html">Mi primera página</a></il>
+			<il><a href="listas.html">Listas</a></il>
+			<il><a href="tablas.html">Tablas</a></il>
+			<il><a href="imagenes.html">Imagenes</a></il>
+			<il><a href="enlaces.html">Enlaces</a></il>
+			<il><a href="audio.html">Audio</a></il>
+			<il><a href="formularios.html">Formularios</a></il>
+			<il><a href="flexbox.html">Flexbox</a></il>
+			<il><a href="animaciones.html">Animaciones</a></il>
+			<il><a href="video.html">Video</a></il>
+			<il><a href="../index.html">Index</a></il>
+		</ul>
+	</nav>
+<main>
+	<section>
+			<h2>Formulario simple</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis qui quod eum, tenetur, fugit fuga autem aliquid error tempora consequatur!</p>
+		<form action="action_page.html" method="get">
+			<label>Nombre</label>
+			<input type="text" id="nombre" name="nombre"><br>
+			<label>Apellido</label>
+			<input type="text" id="apellido" name="apellido"><br>
+			<input type="submit" value="Enviar">
+		</form>
+	</section>
+	
+  	<section>
+		  <h2>Formulario usando radio button</h2>
+		  <p class="parrafo_formulario">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, molestiae!</p>
+		  <form action="action_page.html" method="get">
+		    <label for="nombre">Nombre</label>
+				<input type="text" id="nombre" name="nombre"><br>
+			<label for="apellidos">Apellido</label>
+				<input type="text" id="apellido" name="apellido"><br>
+			<label>Género</label><br>
+				<input type="radio" id="radio" name="género" value="femenino" title="genero">
+			<label>Femenino</label><br>
+				<input type="radio" id="radio" name="género" value="masculino" title="genero">
+			<label>Masculino</label><br>
+			<input type="submit" value="Enviar">			
+      </form>  
+  	</section>
+	
+	<section>
+		<h2>Formulario organizado dentro de una tabla</h2>
+		<p class="parrafo_formulario">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus libero, sint debitis nostrum blanditiis quibusdam!</p>
+	  <form action="action_page.html" method="get">
+			<table width="50%%" border="0">
+  			<tbody>
+    			<tr>
+    			  <td><label for="nombre">Nombre</label></td>
+    			  <td><input type="text" id="nombre" name="nombre"></td>
+    			</tr>
+    			<tr>
+      				<td><label for="apellidos">Apellidos</label></td>
+      				<td><input type="text" id="apellido" name="apellido"</td>
+    			</tr>
+    			<tr>
+      				<td><label for="edad">Edad</label></td>
+      				<td><input type="number" id="edad" name="edad" min="1" max="99"></td>
+    			</tr>
+    			<tr>
+      				<td><input type="submit" value="ENVIAR"></td>
+      				<td></td>
+    			</tr>
+  			</tbody>
+		</table>
+		</form>
+  	</section>
+	
+	<section>
+		  <h2>Formulario usando checkbox y otros</h2>
+		  <p class="parrafo_formulario">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, molestiae!</p>
+		  <form action="action_page.html" method="get">
+		    <label for="nombre">Nombre</label>
+				<input type="text" id="nombre" name="nombre"><br>
+			<label for="apellidos">Apellido</label>
+				<input type="text" id="apellido" name="apellido"><br>
+			<label>Género</label><br>
+				<input type="radio" id="radio" name="género" value="femenino" title="genero">
+			<label>Femenino</label><br>
+				<input type="radio" id="radio" name="género" value="masculino" title="genero">
+			<label>Masculino</label><br>
+			<p>
+			  <label>Elige de la lista el género musical que más te guste</label><br>
+			  <label>
+			    <input type="checkbox" name="CheckboxGroup1" value="pop" id="CheckboxGroup1_0">
+			    Pop</label>
+			  <br>
+			  <label>
+			    <input type="checkbox" name="CheckboxGroup1" value="rock" id="CheckboxGroup1_1">
+			    Rock</label>
+			  <br>
+			  <label>
+			    <input type="checkbox" name="CheckboxGroup1" value="blues" id="CheckboxGroup1_2">
+			    Blues</label>
+			  <br>
+			  <label>
+			    <input type="checkbox" name="CheckboxGroup1" value="jazz" id="CheckboxGroup1_3">
+			    Jazz</label>
+			  <br>
+			 <label>
+			    <input type="checkbox" name="CheckboxGroup1" value="alternativa" id="CheckboxGroup1_4">
+			    Alternativa</label>
+		    </p>
+			<label for="pais">Nacionalidad</label>
+            <select name="pais" id="pais">
+           		<option value="argentina">Argentina</option>
+				<option value="chile">Chile</option>
+				<option value="francia">Francia</option>
+				<option value="lituania">Lituania</option>
+				<option value="mexico">México</option>
+			</select><br>
+			<input type="submit" value="Enviar">			
+      </form>  
+  	</section>
+	
+	<section>
+		<h2>Formulario usando text area</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, recusandae.</p><br>
+		<form action="action_page.html">
+			<textarea name: "mensaje" style="width: 70%; height: 100px;">Escribe tu mensaje</textarea><br>
+			<input type= "submit" value="Enviar">
+		</form>
+	</section>
+	<section>
+		<h2>Button Element</h2>
+		<p>Presiona el botón y te aparecerá un mensaje</p><br>
+		<button type="button" onClick="alert('Hola, bienvenido!')">Presiona</button>
+	</section>
+	
+	
+	
+  </main>
+	<footer>
+	<h5>Elaborado por Sarah Fernández Landa</h5>
+</footer>
+</body>
+</html>
